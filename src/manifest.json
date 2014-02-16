@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Google Maps right-click search",
+    "description": "Highlight text and search on Google Maps using the right-click menu",
+    "version": "0.0.1",
+
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    }
+}
